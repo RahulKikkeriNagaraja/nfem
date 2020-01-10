@@ -4,3 +4,6 @@
 * *%matplotlib notebook* used for interactive plots does not work in Colab
 
 * If any changes are made, restart runtime and Run the previous cells again
+
+
+* *Tutorial files are updated for using them in Google Colab*
