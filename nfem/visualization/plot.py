@@ -263,7 +263,7 @@ def animate_model(fig, ax, models, speed=200, **options):
         plot_model(ax, step_model, 'gray', True, **options)
         plot_model(ax, step_model, 'red', False, **options)
 
-    a = anim.FuncAnimation(fig, update, frames=len(models), blit=True, repeat=True, interval=speed)
+    a = anim.FuncAnimation(fig, update, frames=len(models), blit=False, repeat=True, interval=speed)
     return a
 
 def plot_load_displacement_iterations(ax, model, dof, label=None):
